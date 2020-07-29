@@ -1,0 +1,15 @@
+2020-07-29 10:12:32,578 - __main__ - 60 - INFO - Request files: ImmutableMultiDict([])
+2020-07-29 10:21:25,114 - __main__ - 60 - INFO - Request files: ImmutableMultiDict([])
+2020-07-29 10:26:32,564 - __main__ - 60 - INFO - Request files: ImmutableMultiDict([])
+2020-07-29 10:31:17,668 - __main__ - 60 - INFO - Request files: ImmutableMultiDict([])
+2020-07-29 10:33:55,810 - __main__ - 60 - INFO - Request files: ImmutableMultiDict([])
+2020-07-29 10:34:45,618 - __main__ - 132 - ERROR - Traceback of gender_detection_main of model_test_api.py
+Traceback (most recent call last):
+  File "model_test_api.py", line 60, in gender_detection_main
+    log.info('Request files: {}'.request.files)
+AttributeError: 'str' object has no attribute 'request'
+2020-07-29 10:38:14,261 - __main__ - 132 - ERROR - Traceback of gender_detection_main of model_test_api.py
+Traceback (most recent call last):
+  File "model_test_api.py", line 60, in gender_detection_main
+    log.info('Request files: {}'.request.files)
+AttributeError: 'str' object has no attribute 'request'
